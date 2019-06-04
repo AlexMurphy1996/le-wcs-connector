@@ -48,7 +48,7 @@ var greenlight = 1;
 var assistant = new watson.AssistantV1({
     username: process.env.WCS_USERNAME,
     password: process.env.WCS_PASSWORD,
-    version: '2018-02-16'
+    version: '2018-07-10'
 });
 
 // LE bot agent credentials.
